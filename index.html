@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>游乐园</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">    
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" href="css/reset.min.css">
+<link rel="stylesheet" href="css/tabstyle.css">
+			
+<link rel="stylesheet" href="css/style.css">
+		<style>
+
+			
+			
+		</style>
+
+	</head>
+
+	<body background="img/back.jpg">
+		<!--	导航      -->
+		<div id="navgation_page"></div>
+		<script>
+			$("#navgation_page").load("navigation.html");
+		</script>
+        
+		<!--    图片轮播    -->
+		<div id="myCarousel" class="carousel slide main" align="center" style="top: 65px;">
+			<!-- 轮播（Carousel）指标 -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="4"></li>
+				<li data-target="#myCarousel" data-slide-to="5"></li>
+			</ol>
+			<!-- 轮播（Carousel）项目 -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/t2.jpg" alt="First slide">
+				</div>
+				<div class="item">
+					<img src="img/t10.jpg" alt="Second slide">
+				</div>
+				<div class="item">
+					<img src="img/t5.jpg" alt="Second slide">
+				</div>
+				<div class="item">
+					<img src="img/t9.jpg" alt="Third slide">
+				</div>
+				<div class="item">
+					<img src="img/t6.jpg" alt="Forth slide">
+				</div>
+				<div class="item">
+					<img src="img/t7.jpg" alt="Fifth slide">
+				</div>
+			</div>
+			<!-- 轮播（Carousel）导航 -->
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev"> <span _ngcontent-c3="" aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span></a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next"><span _ngcontent-c3="" aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
+		<!-- 侧边导航/资讯信息/标签页-->
+		<div class="row" style="margin: 100px; ">
+			<div class="col-sm-2" style="background-color: #FFFFFF; ">
+				<ul class="nav nav-pills nav-stacked">
+					<li>
+						<a href="buy.html"><img src="img/book.PNG"></a>
+					</li>
+					<li>
+						<a href="buy.html"><img src="img/price.PNG" />园区票价</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a href="map.html"><img src="img/map.PNG" />园区地图</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a href="happytravels.html"><img src="img/location.PNG" />游园指南</a>
+					</li>
+					
+					<li class="divider"></li>
+					<li>
+						<a href="map.html"><img src="img/bus.PNG" />交通指南</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<span style="font-family: '微软雅黑'; font-size: 20px;">资讯</span>
+						<span style="font-family: '微软雅黑'; font-size: 20px; color: #FF8C00;">热点</span>
+					</div>
+						<div class="panel-body">					
+							<a href="screafestival.html"><img  src="img/visit.jpg" style="float: left;">
+									<h3 class="panel-heading">Penta首届“尖叫节”正式开幕，带你挑战欢乐极限</h3>
+									 当极限运动遇见过山车，你还要继续做看客吗？<br />
+									7月1日-8月27日，Penta欢乐世界力邀众多专业极限运动大师加盟首届“长隆尖叫节”。全天上演多场次酷炫大戏，带来精彩纷呈的跑酷、滑板特技、圆环特技、极限单车....
+								</a>								
+							</div>
+							<ul class="list-group">
+							<li class="list-group-item"><a href="gonggao.html"><span class="glyphicon glyphicon-triangle-right">关于禁止使用“儿童安全绳”公告</span></a></li>	
+							<li class="list-group-item"><a href="honor.html"><span class="glyphicon glyphicon-triangle-right">王者荣耀实景开团，狂欢夏日在Penta</span></a></li>		
+							<li class="list-group-item"><a href="musicfestival.html"><span class="glyphicon glyphicon-triangle-right">草莓音乐节将临 全城狂欢</span></a></li>
+							<li class="list-group-item"><a href="girlday.html"><span class="glyphicon glyphicon-triangle-right">三月“Penta”欢乐女生节，遇见最美的自己</span></a></li>
+						</ul>
+						
+				</div>
+			</div>
+		
+
+		<div class="col-sm-4">
+				<div class="tab" role="tabpanel">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#Section1"  role="tab" data-toggle="tab">门票价格</a></li>
+						<li role="presentation"><a href="#Section2"  role="tab" data-toggle="tab">营业时间</a></li>
+					</ul>
+					<!-- Tab panes -->
+					
+					<div class="tab-content tabs">
+						<div role="tabpanel" class="tab-pane fade in active" id="Section1">
+							<div class="panel panel-default">
+							<div class="panel-heading" >	
+							<span id="b" style="font-size: 25px;"></span>
+							<span id="c"></span>
+							</div>
+							<h3 align="center">票价</h3>
+							<table width="250px" height="100px" border="1"  align="center" style="margin: 30px;text-align: center;">
+								<tr >
+									<td>全票</td>
+									<td>250/人</td>
+								</tr>
+								<tr>
+									<td>儿童票/长者票</td>
+									<td>175/人</td>
+								</tr>
+							</table>
+						</div>
+						</div>
+						
+						<div role="tabpanel" class="tab-pane fade" id="Section2">
+							
+							<div class="panel panel-default">
+							<div class="panel-heading" >
+								<span id="d" style="font-size: 25px;"></span>
+							<span id="e"></span>
+							</div>
+							<br />
+							<p style="margin: 30px;">7、8月营业时间：<br>7月2日-6日、9日-13日：09:30-18:00<br/>
+								7月1日、7-8日、7月14日-8月31日：09:30-19:00<br /><br />（如有变动，请以园区公告为准）</p>
+								<br />
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+
+
+	<div  style="height: 500px;">
+		<div id="pics"></div>
+		<script>
+			$("#pics").load("bottompics.html");
+		</script>
+	</div>
+			<!-- 项目图  -->
+
+	
+<div id="footer"></div>
+		<script>
+			$("#footer").load("footer.html");
+		</script>	
+	
+</body>
+<script> 
+
+
+							<!--获取时间            -->
+
+				function showdate(){
+					var weekday=new Array("星期天","星期一","星期二","星期三","星期四","星期五","星期六");
+					var objDay=new Date();
+					var output=objDay.getFullYear()+".";
+					output+=(objDay.getMonth()+1)+".";
+					output+=objDay.getDate();
+					document.getElementById("b").innerText=output;
+					document.getElementById("c").innerText=weekday[objDay.getDay()]; 
+					document.getElementById("d").innerText=output;
+					document.getElementById("e").innerText=weekday[objDay.getDay()]; 
+				}
+				window.onload = function() { 
+	showdate(); 
+
+    var oDiv = document.getElementById("tab"); 
+
+    var oLi = oDiv.getElementsByTagName("div")[0].getElementsByTagName("li"); 
+
+    var aCon = oDiv.getElementsByTagName("div")[6].getElementsByTagName("div"); 
+
+    var timer = null; 
+
+    for (var i = 0; i < oLi.length; i++) { 
+
+        oLi[i].index = i; 
+
+        oLi[i].onmouseover = function() { 
+
+            show(this.index); 
+
+        } 
+
+    } 
+
+    function show(a) { 
+
+        index = a; 
+
+        var alpha = 0; 
+
+        for (var j = 0; j < oLi.length; j++) { 
+
+            oLi[j].className = ""; 
+
+            aCon[j].className = ""; 
+
+            aCon[j].style.opacity = 0; 
+
+            aCon[j].style.filter = "alpha(opacity=0)"; 
+
+        } 
+
+        oLi[index].className = "cur"; 
+
+        clearInterval(timer); 
+
+        timer = setInterval(function() { 
+
+            alpha += 2; 
+
+            alpha > 100 && (alpha = 100); 
+
+            aCon[index].style.opacity = alpha / 100; 
+
+            aCon[index].style.filter = "alpha(opacity=" + alpha + ")"; 
+
+            alpha == 100 && clearInterval(timer); 
+
+        }, 
+
+        5) 
+
+    } 
+
+} 
+
+				</script>
+</html>

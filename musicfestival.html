@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>园区概括</title>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+		.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 140px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+	</style>
+	</head>
+
+	<body background="img/back.jpg">
+		<div style="height: 1500px;">
+		<!--	导航      -->
+		<div id="navgation_page"></div>
+		<script>
+			$("#navgation_page").load("navigation.html");
+		</script>
+		<div class="panel panel-default " style="float: left; width: 20%;margin-top:100px;margin-left: 100px;position: absolute;">
+			<div class="panel-heading">最新介绍</div>
+			<ul class="list-group">
+				<li class="list-group-item">园区概括</li>
+			</ul>
+		</div>
+		<div class="panel panel-default" style="float: left; width: 50%;margin-top:100px;margin-left: 500px;display: block;">
+			<div class="panel-heading">最新消息</div>
+			<div class="panel-body">
+				<h2>草莓音乐节将临 全城狂欢
+        </h2>
+			</div>
+			<ul class="list-group">
+				<div align="center">
+				<img src="img/news/music1.PNG"/>
+				</div>
+				
+ 
+     <p style="margin: 18px;">&nbsp;&nbsp;&nbsp;&nbsp;精彩纷呈的音乐盛宴，或燥或暖心或浪漫的万人狂欢现场，上次的广州草莓音乐节你是否还回味无穷。好消息！2018年1月6日和1月7日，“广州草莓音乐节——长隆欢乐世界新年狂欢派对”即将再次降临长隆欢乐世界音乐节广场。赶紧约上三两好友一同为音乐狂欢，同时畅玩长隆欢乐世界7大主题区域、70余项超动感游乐设施，在新年给自己送上一份特别的礼物吧。
+</p>
+<div align="center">
+				<img src="img/news/music2.PNG"/>
+				</div>
+			<p style="margin: 18px;">		
+在浩瀚宇宙里，你我以孤独相互连接。我们生而孤独，因共同的特质在“草莓星球”聚合，在形单影只的时刻环顾四周，发现自己的同类星辰，为同一首歌舞动，为同一只乐队疯狂。在这里，你可以放肆玩闹，挣脱枯燥生活，跳开无聊教条束缚，化身“草莓星人”，登陆“草莓星球”，找到一个介于工作与家庭之间、虚拟与现实之间的“第三空间”。
+ 
+作为“草莓星人”眼中国内最值得体验的音乐节，“草莓”带给你视听盛宴的同时，你还可以好好逛逛创意市集，这里琳琅满目的都是手作、文创、复古、亚文化、极客等各类领域的优质商品，为到场乐迷提供全新的新青年美学生活方式；你还可以在特色餐饮区里，通过味觉辨识加强对城市的记忆，全方位提升音乐节的体验。
+</p>
+
+					<p style="float: right;">Penta Kill旅游度假区</p>
+
+					<p style="float: right;">2018 年 7 月 7 日</p>
+				
+				<li class="list-group-item"><a href="index.html"><button class="button1" style=" margin-left: 50%;"><span>返回</span></button></a></li>
+			</ul>
+		</div>
+</div>
+	</body>
+
+</html>

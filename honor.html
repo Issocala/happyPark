@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>园区概括</title>
+		<link rel="stylesheet" href="css/bootstrap.css">  
+		<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+		.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 140px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+	</style>
+	</head>
+
+	<body background="img/back.jpg">
+		<div style="height: 1000px;">
+		<!--	导航      -->
+		<div id="navgation_page"></div>
+		<script>
+			$("#navgation_page").load("navigation.html");
+		</script>
+		<div class="panel panel-default " style="float: left; width: 20%;margin-top:100px;margin-left: 100px;position: absolute;">
+			<div class="panel-heading">最新介绍</div>
+			<ul class="list-group">
+				<li class="list-group-item">园区概括</li>
+			</ul>
+		</div>
+		<div class="panel panel-default" style="float: left; width: 50%;margin-top:100px;margin-left: 500px;display: block;">
+			<div class="panel-heading"><span class="glyphicon glyphicon-menu-right"></span>最新消息</div>
+			<div class="panel-body">
+				<h2>王者荣耀实景开团，狂欢夏日在长隆
+        </h2>
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item" style="height: 200px;">
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;梦奇、大乔、鲁班 、庄周……约上三五好友，pick自己最拿手的英雄，进入王者荣耀开黑上分，已经成为朋友间最喜欢的休闲方式之一。而对于年轻玩家来说，上分冲段除了收获愉悦，更多的还是和好兄弟、好闺蜜的感情传递。你来我往，默契配合，嬉笑逗趣间联系变得更为紧密，情谊也悄悄得到升华。</p>
+
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;但是就像网络有延迟，透过手机来增进感情总感觉没线下聚会来的畅快。想要王者荣耀世界一起团战开黑，又想在现实世界中玩到尽兴，有没有双全之法？当然有，来长隆欢乐世界，这些都能轻松实现！，长隆集团与王者荣耀强强联手，将王者荣耀游戏元素注入长隆欢乐世界，梦奇则化身“欢乐大使”，带领众多人气英雄空降欢乐世界，全新的王者荣耀游玩体验，等你来“团”。</p>
+
+					<p style="float: right;">Penta Kill旅游度假区</p>
+
+					<p style="float: right;">2018 年 7月 12 日</p>
+				</li>
+				<div align="center">
+				<img src="img/news/honor.png"/>
+				</div>
+				
+					<h2 style="margin: 18px;">王者峡谷重装出发，梦奇领队迎接召唤师</h2>
+					
+					<p style="margin: 18px;">&nbsp;&nbsp;&nbsp;&nbsp;今年暑期长隆欢乐世界迎来重磅升级，全新融入王者荣耀主题元素，为游客营造绝佳游园体验。而此次作为长隆欢乐世界欢乐大使的王者荣耀人气英雄梦奇，更是携各路英雄使出了浑身解数迎接游客光临。
+
+踏入长隆欢乐世界大门，就能感受到浓郁的王者荣耀氛围。在南门及北门两大入口处，分别伫立着两座数米高的巨型梦奇雕塑，让人在入园瞬间便被拉入梦奇编织的王者之梦中。而更令人惊奇的是，使用QQ AR功能扫描雕塑，她便会从手机屏幕中跳出来与你嬉戏互动，圆滚滚的激萌神态让游园从一开始就有了好心情。
+
+走进园内，道路就像王者峡谷中的条条战线，近战兵、法师及炮车整军待发，好似即将发起一场新的战役。在道路两旁，王者主题元素更是随处可见，不仅有超真实的峡谷出击、热夏海岸等微场景供玩家合影留念，园区甚至还专门设有“王者妆容”化妆点。游客换上靓丽的王者荣耀英雄妆容后，无论是拍照还是游玩都别有一番滋味，更好地与园区升级后的绝妙氛围融为一体。
+
+
+				</p>
+				<li class="list-group-item"><a href="index.html"><button class="button1" style=" margin-left: 50%;"><span>返回</span></button></a></li>
+			</ul>
+		</div>
+		</div>
+	</body>
+
+</html>

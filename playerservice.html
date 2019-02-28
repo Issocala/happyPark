@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>游客服务</title>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=VRW5HeOoWoODSo5Lb8RvUuQARZGLZ3AX"></script>
+		
+		<style>
+			/* Custom Styles */
+			
+			ul.nav-tabs {
+				width: 140px;
+				margin-top: 20px;
+				border-radius: 0px;
+				border: 0px solid #ddd;
+				box-shadow: 0 0px 0px rgba(0, 0, 0, 0.000);
+				padding-left: 300px;
+			}
+			
+			ul.nav-tabs li {
+				margin: 0;
+				border-top: 1px solid #ddd;
+			}
+			
+			ul.nav-tabs li:first-child {
+				border-top: none;
+			}
+			
+			ul.nav-tabs li a {
+				margin: 0;
+				padding: 8px 16px;
+				border-radius: 0;
+			}
+			
+			ul.nav-tabs li.active a,
+			ul.nav-tabs li.active a:hover {
+				color: #fff;
+				background: #0088cc;
+				border: 1px solid #0088cc;
+			}
+			
+			ul.nav-tabs li:first-child a {
+				border-radius: 4px 4px 0 0;
+			}
+			
+			ul.nav-tabs li:last-child a {
+				border-radius: 0 0 4px 4px;
+			}
+			
+			ul.nav-tabs.affix {
+				top: 50px;
+				/* Set the top position of pinned element */
+			}
+		</style>
+	</head>
+
+	<body data-spy="scroll" data-target="#myScrollspy">
+		<!--	导航      -->
+		<div id="navgation_page"></div>
+		<script>
+			$("#navgation_page").load("navigation.html");
+		</script>
+		<nav class="navbar navbar-default " role="navigation">
+			<div>
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							游客服务
+							<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">游园指南</a>
+							</li>
+							<li>
+								<a href="#">园区地址</a>
+							</li>
+							<li>
+								<a href="#">园区简介</a>
+							</li>
+							<li>
+								<a href="#">园区时间表</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<a href="#">TIP</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			</div>
+			<div>
+			</div>
+		</nav>
+		<div class="row">
+			<div class="col-xs-3">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<p class="panel-title">
+							<z>Penta游乐园</z>
+						</p>
+					</div>
+					<div class="panel-body">
+						<p>Penta游乐园拥有游乐设施70余套。其中大部分游乐设备均从欧洲原装进口，包括：垂直过山车、十环过山车、摩托过山车、 飞马家庭过山车、U型滑板、超级水战、特技表演、超级大摆锤以及目前亚洲至先进的四维影院。其中垂直过山车仅单项投资就超过2亿元人民币。
+						</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-xs-9">
+				<img src="img/11.jpg" class="img-thumbnail" height="100%" width="100%" alt="图片未显示">
+			</div>
+			<div class="row tb1">
+				<div class="col-xs-3 " id="myScrollspy">
+					<ul id="myTab" class="nav nav-tabs  nav-stacked" data-spy="affix" data-offset-top="125">
+						<li class="active">
+							<a href="#section-1" data-toggle="tab">游园指南</a>
+						</li>
+						<li>
+							<a href="#section-2" data-toggle="tab">园区地址</a>
+						</li>
+						<li>
+							<a href="#section-3" data-toggle="tab">园区简介</a>
+						</li>
+						<li>
+							<a href="#section-4" data-toggle="tab">园区时间表</a>
+						</li>
+						<li>
+							<a href="#section-5" data-toggle="tab">TIP</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-9 tab-content">
+					<div id="section-1" class="tb2 tab-pane fade in active">
+						<h2 id="section-1">游园指南</h2>
+						<p>Penta游乐园作为Penta Kill集团斥资20亿元人民币倾力打造的集乘骑游乐、特技剧场、巡游表演、生态休闲、特色餐饮、主题商店、综合服务于一体的具国际先进技术和管理水平的全球超大型主题游乐园。拥有游乐设施70余套，其中大部分游乐设备均从欧洲原装进口，包括：垂直过山车、十环过山车、摩托过山车、飞马家庭过山车、U型滑板、超级水战、特技表演、超级大摆锤以及目前亚洲先进的四维影院等。如此大型高端的主题游乐园岂可错过?</p>
+						<p>Penta游乐园全票250元，1.0-1.5米的小朋友或65岁以上长者（凭身份证）以及持有国家民政部、残联、部队核发的有效残疾军人证及残疾证之人士（凭有效残疾军人证/残疾证）175元。</p>
+						<p>无论是晴天、阴天还是烟雨朦胧的小雨天气，都无碍园区玩耍。</p>
+						<p>建议乘坐地铁，三号线、七号线直达汉溪长隆站，从D出口或E出口直接到达五杀地铁广场。步行三分钟即可到达长隆欢乐世界南门。</p>
+						<p>亦可自驾车前往景区，新光快速、华南快速、京珠高速和广珠西线等均可快速到赣州景区。</p>
+						<hr>
+					</div>
+					<div id="section-2" class=" tab-pane fade in active">
+						<h2 id="section-2">园区地址</h2>
+						<p>##########################################################################################</p>
+						<div style="width:700px;height:550px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+						<p>##########################################################################################</p>
+					</div>
+					<hr>
+					<div id="section-3" class=" tab-pane fade in active">
+						<h2 id="section-3">园区简介</h2>
+						<p> 从2006年开业至今，Penta欢乐世界完成了巨变——从硬件游乐的1.0时代蜕变成以满足游客主题体验为中心的3.0时代。
+							从2012年全新开放的室内情景探险项目“森林神庙”到世界先进的“星际决战”，2017年1月17日，
+							Penta欢乐世界全新游乐区域“欢乐小镇”盛大开放，这个长隆特有的原创马戏主题的开放性游乐小镇，
+							你可以体验到“自由落体”、“飞天魔轮”、“霹雳转车”、“摇摆屋”、“滑翔飞翼”五大刺激有趣的全新游乐项目！Penta欢乐世界向世界主题游乐市场交出了一份满意的答卷。</p>
+						<p>
+							<h1>火箭过山车</h1></p>
+						<p> 火箭过山车集“垂直跌落”、“倒挂俯冲”、和“高速回旋”于一体，轨道全长近300米，体验过程紧凑刺激环环相扣，给您带来翻天覆地，在空中自由驰骋的感受。前所未有的过山车退后加速体验，挑战的更是您的心理极限！坐上火箭过山车即可感受到来自四种经典过山车的不同体验，逍遥搏击任飞翔，火箭一飞冲天！</p>
+						<p>身高限制：1.4米 ~ 1.95米</p>
+						<p>搭乘本游乐设施要求：</p>
+						<ul>
+							<li><span>01</span>禁止携带自拍杆进入设施；</li>
+							<li><span>02</span>请勿吸烟，请勿酒后游玩；</li>
+							<li><span>03</span>孕妇禁止乘坐；</li>
+							<li><span>04</span>患有心脏病、高血压或心血管、脊椎、颈部疾病的游客禁止乘坐；</li>
+							<li><span>05</span>容易晕车或可能因搭乘本游乐设施而导致身体不适的游客禁止乘坐；</li>
+							<li><span>06</span>设施运行时请勿站立，请勿头手请勿伸出设施外；</li>
+							<li><span>07</span>手机、相机等易松脱的物品请勿携带乘坐；</li>
+							<li><span>08</span>请扣好设施安全扣或安全带；</li>
+						</ul>
+						<img src="img/2.jpg" height="300" width="300" class="img-rounded" alt="图片未显示">
+						<p>
+							<h1>垂直过山车</h1></p>
+						<p>逍遥搏击任飞翔，彩虹绘出真体验，让国人不出国门就可享受到先进的游乐设施，现在就让我们一起尽情去体验垂直过山车的巅峰感受吧。</p>
+						<p>身高限制：1.4米 ~ 1.95米</p>
+						<p>搭乘本游乐设施要求：参考火箭过山车</p>
+						<img src="img/3.png" height="300" width="300" class="img-rounded" alt="图片未显示">
+						<p>
+							<h1>U型滑板</h1></p>
+						<p>亚洲先进的U型滑板，是跳楼机与过山车的完美结合，感受时尚的滑板活动，体验动感的生理极限。</p>
+						<p>其它参考火箭过山车</p>
+						<img src="img/4.jpg" height="300" width="300" class="img-rounded" alt="图片未显示">
+						<p>
+							<h1>自由落体</h1></p>
+						<p>位于欢乐世界最中心的“金箍棒”能带你上天入地！于65米高空，360°全方位欣赏全园美景时，请切勿过于陶醉，因为它的随时极速下坠，连空中飞人也会措手不及。</p>
+						<p>其它参考火箭过山车</p>
+						<img src="img/5.gif" height="300" width="300" class="img-rounded" alt="图片未显示">
+					</div>
+					<hr>
+					<div id="section-4" class=" tab-pane fade in active">
+						<h2 id="section-4">园区时间表</h2>
+						<button id="button1" class="btn btn-info btn-lg" style="width:200px;height:60px">演出时间</button>
+						<button id="button2" class="btn btn-info btn-lg" style="width:200px;height:60px">设施运营时间</button>
+						<table class="table table-hover" border="10px">
+							<caption>
+								<h1>演出时间</h1></caption>
+							<thead>
+								<tr class="active">
+									<th>表演名称</th>
+									<th>表演地点</th>
+									<th>表演时间</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="active">
+									<td>惊天危机</td>
+									<td>国际特技剧场</td>
+									<td>14:00-16:00</td>
+								</tr>
+								<tr class="active">
+									<td>幻影魔力</td>
+									<td>欢乐剧场</td>
+									<td>9:00-10：00</td>
+								</tr>
+								<tr class="active">
+									<td>妙想世界大环游</td>
+									<td>园区</td>
+									<td>14:30</td>
+								</tr>
+								<tr class="active">
+									<td>魔音乐队</td>
+									<td>梦幻转马</td>
+									<td>16:30</td>
+								</tr>
+							</tbody>
+						</table>
+						<table class="table table-hover" border="10px">
+							<caption>
+								<h1>2018年十月黄金周设备运营时间</h1></caption>
+							<thead>
+								<tr class="active">
+									<th>区域</th>
+									<th>园区开放时间</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="active">
+									<td>尖叫地带</td>
+									<td>10-01——10.07 8:30--21:30</td>
+								</tr>
+								<tr class="active">
+									<td>旋风岛</td>
+									<td>10-01——10.06 14:30--21:30</td>
+								</tr>
+								<tr class="active">
+									<td>欢乐小镇</td>
+									<td>10-01——10.07 10:30--21:30</td>
+								</tr>
+								<tr class="active">
+									<td>欢乐水世界</td>
+									<td>10-01——10.05 8:30--17:30</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<hr>
+					<div id="section-5" class="jumbotron tab-pane fade in active">
+						<h2 id="section-5">TIP</h2>
+						<ul>
+							<li><span>01</span>为保障公共安全卫生及游客财产安全，园区将进行安全检查，所有食品饮料、易燃易爆违禁品等危险物品、行李箱、大件包裹禁止带入园内。</li>
+							<li><span>02</span>部分设施有身高及身体参玩要求，请游客视自身的健康状况斟酌参玩。</li>
+							<li><span>03</span>游乐设施，集会、人群密集区域禁止使用自拍杆。</li>
+							<li><span>04</span>宠物或其他动物（除导盲犬外）谢绝带入园区。</li>
+							<li><span>05</span>手推车或任何装有车轮之运送用具（除婴儿车、轮椅外），包含但不限于滑板、滑行车、轴向冰鞋、自行车及三轮搬运车等谢绝带入园区。</li>
+							<li><span>06</span>彩旗、锣鼓、高音喇叭、遥控玩具、横幅等物品谢绝带入园区。</li>
+							<li><span>07</span>儿童安全绳谢绝带入园区。</li>
+						</ul>
+					</div>
+				</div>
+				<script>
+					$(function() {
+						$('#myTab li:eq(0) a').tab('show');
+					});
+				</script>
+			</div>
+		</div>
+
+	</body>
+	<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+      createMap();//创建地图
+      setMapEvent();//设置地图事件
+      addMapControl();//向地图添加控件
+      addMapOverlay();//向地图添加覆盖物
+    }
+    function createMap(){ 
+      map = new BMap.Map("map"); 
+      map.centerAndZoom(new BMap.Point(115.823213,25.619162),17);
+    }
+    function setMapEvent(){
+      map.enableScrollWheelZoom();
+      map.enableKeyboard();
+      map.enableDragging();
+      map.enableDoubleClickZoom()
+    }
+    function addClickHandler(target,window){
+      target.addEventListener("click",function(){
+        target.openInfoWindow(window);
+      });
+    }
+    function addMapOverlay(){
+      var markers = [
+        {content:"我的乐园，超开心",title:"happy乐园",imageOffset: {width:-115,height:-21},position:{lat:25.619162,lng:115.823213}}
+      ];
+      for(var index = 0; index < markers.length; index++ ){
+        var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+        var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+          imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+        })});
+        var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+        var opts = {
+          width: 200,
+          title: markers[index].title,
+          enableMessage: false
+        };
+        var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+        marker.setLabel(label);
+        addClickHandler(marker,infoWindow);
+        map.addOverlay(marker);
+      };
+    }
+    //向地图添加控件
+    function addMapControl(){
+      var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+      scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+      map.addControl(scaleControl);
+      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+      map.addControl(navControl);
+      var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});
+      map.addControl(overviewControl);
+    }
+    var map;
+      initMap();
+  </script>
+
+</html>

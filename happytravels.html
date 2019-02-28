@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>欢乐旅程</title>
+		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+			/* Custom Styles */
+			
+			ul.nav-tabs {
+				width: 140px;
+				margin-top: 20px;
+				border-radius: 4px;
+				border: 1px solid #ddd;
+				box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+			}
+			
+			ul.nav-tabs li {
+				margin: 0;
+				border-top: 1px solid #ddd;
+			}
+			
+			ul.nav-tabs li:first-child {
+				border-top: none;
+			}
+			
+			ul.nav-tabs li a {
+				margin: 0;
+				padding: 8px 16px;
+				border-radius: 0;
+			}
+			
+			ul.nav-tabs li.active a,
+			ul.nav-tabs li.active a:hover {
+				color: #fff;
+				background: #0088cc;
+				border: 1px solid #0088cc;
+			}
+			
+			ul.nav-tabs li:first-child a {
+				border-radius: 4px 4px 0 0;
+			}
+			
+			ul.nav-tabs li:last-child a {
+				border-radius: 0 0 4px 4px;
+			}
+			
+			ul.nav-tabs.affix {
+				top: 30px;
+				/* Set the top position of pinned element */
+			}
+		</style>
+	</head>
+
+	<body data-spy="scroll" data-target="#myScrollspy" background="img/back.jpg">
+		<!--	导航      -->
+		<div id="navgation_page"></div>
+		<script>
+			$("#navgation_page").load("navigation.html");
+		</script>
+		<div style="height: 200px;"> </div>
+		
+		<div class="container" >
+			
+			<div class="row">
+				<div class="col-xs-3" id="myScrollspy">
+					<ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+						<li class="active">
+							<a href="#section-1">幻影天地</a>
+						</li>
+						<li>
+							<a href="#section-2">旋风岛</a>
+						</li>
+						<li>
+							<a href="#section-3">彩虹湾</a>
+						</li>
+						<li>
+							<a href="#section-4">尖叫地带</a>
+						</li>
+						<li>
+							<a href="#section-5">欢乐水世界</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-xs-9">
+					<p style="font-size: 28px;" id="section-1">幻影天地</p>
+					<div class="col-sm-5 col-md-4" >
+						<div class="thumbnail">
+							<img src="img/happy/cinema.jpg">
+							<div class="caption">
+								<h3>四维影城</h3>
+								<p>亚洲先进四维影院，将为广大游客带来极致的观影体验。<br><br> <br></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-5 col-md-4" >
+						<div class="thumbnail">
+							<img src="img/happy/temple.jpg">
+							<div class="caption">
+								<h3>森林神庙</h3>
+								<p>大型情景历险主题游乐项目，它拥有一个神秘的故事，带游客到在远古森林的神秘大庙。</p>
+								<br>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-5 col-md-4" >
+						<div class="thumbnail">
+							<img src="img/happy/battle.jpg">
+							<div class="caption">
+								<h3>星际决战</h3>
+								<p>大型时空探险360°全景游乐项目“星际决战”是一艘能搭乘180人的“星际飞船”，与铁甲金刚一起开启奇幻的星际探险旅程！</p>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<p style="font-size: 28px;" id="section-2" >旋风岛</p>
+					<div class="col-sm-5 col-md-4" >
+						<div class="thumbnail">
+							<img src="img/happy/U.jpg">
+							<div class="caption">
+								<h3>U型滑板</h3>
+								<p>U型滑板是跳楼机与过山车的完美结合，感受时尚的滑板活动，体验动感的生理极限。</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-5 col-md-4" >
+						<div class="thumbnail">
+							<div class="caption">
+							<img src="img/happy/cup.jpg">
+							<h3>转转杯</h3>
+							<p>伴你到天方夜潭的神杯中去领略神话般的传说。<br></p>
+						</div>
+					</div>
+					</div>
+				<div class="col-sm-5 col-md-4" >
+					<div class="thumbnail">
+						<img src="img/happy/fly.jpg">
+						<div class="caption">
+							<h3>飓风飞椅</h3>
+							<p>乘坐神奇飞椅，带你在空中不断高低变幻飞驰。<br><br></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-md-4" >
+					<div class="thumbnail">
+						<img src="img/happy/hat.jpg">
+						<div class="caption">
+							<h3>墨西哥草帽</h3>
+							<p>坐上神奇的墨西哥草帽，带你到长满仙人掌的世界里飞旋。</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-md-4" >
+					<div class="thumbnail">
+						<img src="img/happy/boat.jpg">
+						<div class="caption">
+							<h3>音乐船</h3>
+							<p>乘坐欢乐音乐小船，扮演"小海盗"扬帆出海。</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-md-4" >
+					<div class="thumbnail">
+						<img src="img/happy/car.png">
+						<div class="caption">
+							<h3>碰碰车</h3>
+							<p>这里不用驾照，无需遵守交通规则，你可以在这里横冲直撞！</p>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<p style="font-size: 28px;" id="section-3">彩虹湾</p>
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/down.jpg">
+						<div class="caption">
+							<h3>垂直过山车</h3>
+							<p>逍遥搏击任飞翔，彩虹绘出真体验，让国人可享受到超大型的游乐设施，让我们一起尽情去体验过山车典范的巅峰感受吧。</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/super.jpg">
+						<div class="caption">
+							<h3>超级大摆锤</h3>
+							<p>大型机动游乐设施，号称"天旋地转之间，体验欢乐风暴强劲旋律，挑战心理承受极限。<br><br></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/horse.jpg">
+						<div class="caption">
+							<h3>飞马家庭过山车</h3>
+							<p>充满欢乐及尖叫的飞马家庭过山车打破了以往大型过山车只适合年轻人玩乐的局限，既适合年轻人，也适合小孩和老人乘玩，</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/crazybus.jpg">
+						<div class="caption">
+							<h3>疯狂巴士</h3>
+							<p>乘坐失控的巴士在空中疯狂摇摆，惊险刺激。</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/oldcar.jpg">
+						<div class="caption">
+							<h3>欢乐老爷车</h3>
+							<p>“欢乐老爷车”全新开放，让亲子陪伴更温馨。“</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/oldcar.jpg">
+						<div class="caption">
+							<h3>迷你飞行器</h3>
+							<p>在蓝蓝的天空上自由飞行，你就是小小机师！</p>
+						</div>
+					</div>
+				</div>
+
+				<hr>
+				<p style="font-size: 28px;"id="section-4">尖叫地带</p>
+
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/rocket.jpg">
+						<div class="caption">
+							<h3>火箭过山车</h3>
+							<p>火箭过山车集“垂直跌落”、“倒挂俯冲”、和“高速回旋”于一体，轨道全长近300米，体验过程紧凑刺激环环相扣.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/tenrole.jpg">
+						<div class="caption">
+							<h3>十环过山车</h3>
+							<p>十环过山车总长850米，载着你时而迅猛俯冲，时而盘旋上升越上云霄，时而急速骤降……中心连环旋转更有奇妙的同心惯力。</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/juan.jpg">
+						<div class="caption">
+							<h3>龙卷风暴</h3>
+							<p>感受大海的波涛，搏击海啸的风浪，投身其中，尽情欢叫风暴般的快感吧。<br><br></p>
+						</div>
+					</div>
+				</div>
+				
+
+				<hr>
+				<p style="font-size: 28px;"id="section-5">欢乐水世界</p>
+
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/superwater.jpg">
+						<div class="caption">
+							<h3>超级水战</h3>
+							<p>亚洲超级水战，宛若进入清爽的探险之旅，快乐的童年时光从此永留！</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/pengpengchuan.jpg">
+						<div class="caption">
+							<h3>碰碰船</h3>
+							<p>随意在水中横行霸道，是攻击还是逃避，由你决定。</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/jiliu.jpg">
+						<div class="caption">
+							<h3>激流勇进</h3>
+							<p>你将乘坐木筏船，在急流中从天而降，激起层层浪花，惊喜万分。</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/motor.jpg">
+						<div class="caption">
+							<h3>摩托过山车</h3>
+							<p>英勇战将，驾驭高速摩托车，媲美F1赛车，像赛车手一样在车道中飞驰，全程兴奋、过瘾、惊奇。</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-5 col-md-4">
+					<div class="thumbnail">
+						<img src="img/happy/haidao.jpg">
+						<div class="caption">
+							<h3>海盗漂流</h3>
+							<p>“海盗漂流”让你扮演加勒比海盗，穿越热带雨林，一番探险游历，赢得心中的宝藏。</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		</div>
+	</body>
+
+</html>
